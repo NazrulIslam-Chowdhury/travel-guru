@@ -8,9 +8,37 @@ const Booking = () => {
     return (
         <div className='bg2'>
             <Header />
-            <div>
-
-            </div>
+            {/* <div className="box">
+                <div className="container">
+                    <div className="form">
+                        <h2>Appointment</h2>
+                        <form action="">
+                            <div className="inputBox">
+                                <input
+                                    type="text"
+                                    placeholder='Name' />
+                            </div>
+                            <div className="inputBox">
+                                <input
+                                    type="email"
+                                    placeholder='Email' />
+                            </div>
+                            <div className="inputBox">
+                                <input
+                                    type="tel"
+                                    placeholder='Mobile' />
+                            </div>
+                            <div className="inputBox">
+                                <input
+                                    type="date" />
+                            </div>
+                            <div className="inputBox">
+                                <input type="submit" value='Submit' />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> */}
         </div>
     );
 };
