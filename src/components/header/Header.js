@@ -51,7 +51,7 @@ const Header = () => {
                     <input
                         type="text"
                         placeholder="Search"
-                        className="border-none outline-none w-auto pr-14 pl-2 py-2 bg-white rounded rounded-r-none text-gray-600" />
+                        className="border-none outline-none w-auto pr-14 pl-2 bg-white rounded rounded-r-none text-gray-600" />
                     <div
                         className='bg-sky-400 p-4 rounded-r'
                     >
