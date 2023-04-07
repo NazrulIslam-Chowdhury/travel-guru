@@ -39,16 +39,16 @@ const Booking = () => {
                             </div>
                             <div className='mt-3'>
                                 <label htmlFor=""
-                                    className='font1 text-white mt-4'
+                                    className='font1 text-white'
                                 >From</label>
                                 <input
                                     type="date"
-                                    className='w-full px-5 py-2 rounded border-solid border-r-2 border-[rgba(255, 255, 255, 0.2)] border-b-2 outline-none bg-[rgba(255, 255, 255, 0.2)] text-lg tracking-wide text-white bg-gray-500 shadow-md shadow-black mt-3 placeholder:text-white'
+                                    className='w-full px-5 py-2 rounded border-solid border-r-2 border-[rgba(255, 255, 255, 0.2)] border-b-2 outline-none bg-[rgba(255, 255, 255, 0.2)] text-lg tracking-wide text-white bg-gray-500 shadow-md shadow-black placeholder:text-white'
                                 />
                             </div>
                             <div className="mt-3">
                                 <label htmlFor=""
-                                    className='font1 text-white mt-4'
+                                    className='font1 text-white'
                                 >To</label>
                                 <input
                                     type="date"

@@ -10,7 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 75vh;
+  height: 85vh;
   overflow: hidden;
 }
 
@@ -21,6 +21,16 @@
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  overflow: hidden;
+}
+
+.bg3 {
+  background: url(./images/full-shot-woman-travel-concept.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
   overflow: hidden;
 }
 

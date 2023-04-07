@@ -5,7 +5,7 @@ import { BsSearch } from 'react-icons/bs';
 
 const Header = () => {
     return (
-        <div className="navbar bg-gradient-to-tr justify-between from-slate-200 text-white font-semibold font1">
+        <div className="navbar bg-gradient-to-tr from-slate-400 text-white  justify-between backdrop-blur-md font-semibold font1">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="flex-none gap-2">
-                <div className="flex">
+                <div className=" hidden lg:flex">
                     <input
                         type="text"
                         placeholder="Search"

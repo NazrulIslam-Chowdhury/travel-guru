@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Place from '../place/Place';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import Header from '../header/Header';
+import bg from '../../images/full-shot-woman-travel-concept.jpg';
 
 
 const Home = () => {
@@ -15,8 +16,8 @@ const Home = () => {
     }, [])
 
     return (
-        <div>
-            <div className='bg text-white'>
+        <div className='absolute'>
+            <div className='relative bg text-white'>
                 <Header />
                 <div className='flex flex-col items-center p-[10%]'>
                     <h1 className="text-7xl font-extrabold font1 tracking-wider">Travel Guru</h1>
@@ -33,7 +34,8 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mx-5 gap-6 mt-5'>
+            <div className="relative grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 px-24 pt-24 pb-[103%] bg3"
+            >
                 {
                     places.map(place => <Place key={place.id} place={place}></Place>)
                 }
