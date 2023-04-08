@@ -6,7 +6,7 @@ import Header from '../header/Header';
 const DestinationDetail = () => {
     const detail = useLoaderData();
     const { place_name, img, details } = detail;
-    console.log(detail);
+
 
     return (
         <div className='bg2'>

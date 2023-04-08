@@ -12,7 +12,7 @@ const Home = () => {
     const [places, setPlaces] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/destination')
+        fetch('https://destination-unknown-server.vercel.app/destination')
             .then((res) => res.json())
             .then((data) => setPlaces(data))
     }, [])

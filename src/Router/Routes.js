@@ -17,7 +17,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/destination/:id',
-                loader: ({ params }) => fetch(`http://localhost:5000/destination/${params.id}`)
+                loader: ({ params }) => fetch(`https://destination-unknown-server.vercel.app/destination/${params.id}`)
                 ,
                 element: <DestinationDetail />
             },
