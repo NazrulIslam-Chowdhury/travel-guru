@@ -7,7 +7,9 @@ const Main = () => {
         <div >
             <div>
                 <Outlet />
-                <Footer />
+                <div className='mt-5'>
+                    <Footer />
+                </div>
             </div>
         </div>
     );

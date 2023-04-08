@@ -17,7 +17,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className='absolute'>
+        <div>
             <div className='relative bg text-white'>
                 <Header />
                 <div className='flex flex-col items-center p-[10%]'>

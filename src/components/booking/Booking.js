@@ -5,7 +5,7 @@ const Booking = () => {
     return (
         <div className='bg2'>
             <Header />
-            <div className="relative flex justify-center p-[2%]">
+            <div className="relative flex justify-center py-[13%] lg:p-[6%] md:p-[3%]">
                 <div className="relative flex justify-center rounded-md w-[400px] min-h-[400px] bg-[rgba(255, 255, 255, 0.1)] backdrop-blur-md shadow-2xl shadow-black border-solid border-r-2 border-b-2 border-gray-400">
                     <div className="relative w-full h-full pt-5 pr-20 pb-5 pl-12">
                         <h2 className='font1 text-white text-2xl font-bold mb-10 tracking-wide before:absolute before:left-12 before:top-14 before:w-28 before:h-1 before:bg-white'>Booking</h2>
