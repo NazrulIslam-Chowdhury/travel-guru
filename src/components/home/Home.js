@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import Place from '../place/Place';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import Header from '../header/Header';
-import bg from '../../images/full-shot-woman-travel-concept.jpg';
+import ParallaxSection from './ParallaxSection';
+
 
 
 const Home = () => {
@@ -34,11 +35,17 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-            <div className="relative grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 px-24 pt-24 pb-[103%] bg3"
+            <div className="relative bg3"
             >
-                {
-                    places.map(place => <Place key={place.id} place={place}></Place>)
-                }
+                <h1 className='text-white text-center text-3xl font1 font-bold mt-16'>Places</h1>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-6 mx-10  mt-10 pb-[70%]'>
+                    {
+                        places.map(place => <Place key={place.id} place={place}></Place>)
+                    }
+                </div>
+            </div>
+            <div className='mt-10'>
+                <ParallaxSection />
             </div>
         </div>
 
