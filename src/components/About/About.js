@@ -7,11 +7,13 @@ import { CiPlane } from 'react-icons/ci';
 import { MdTravelExplore } from 'react-icons/md';
 import { RiGuideLine } from 'react-icons/ri';
 import { GiReturnArrow } from 'react-icons/gi';
+import Header from '../header/Header';
 
 const About = () => {
     return (
         <div>
-            <VerticalTimeline>
+            <Header />
+            <VerticalTimeline className='mt-20'>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ color: 'black' }}
