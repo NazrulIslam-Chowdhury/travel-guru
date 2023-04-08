@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import About from "../components/About/About";
 import Booking from "../components/booking/Booking";
 import Contact from "../components/contact/Contact";
-import Destination from "../components/destination/Destination";
+import DestinationDetail from "../components/destinationDetail/DestinationDetail";
 import Home from "../components/home/Home";
 import Main from "../layout/Main";
 
@@ -16,8 +16,10 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: '/destination',
-                element: <Destination />
+                path: '/destination/:id',
+                loader: ({ params }) => fetch(`http://localhost:5000/destination/${params.id}`)
+                ,
+                element: <DestinationDetail />
             },
             {
                 path: '/contact',
