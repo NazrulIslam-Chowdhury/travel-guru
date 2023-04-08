@@ -4,6 +4,7 @@ import Place from '../place/Place';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import Header from '../header/Header';
 import ParallaxSection from './ParallaxSection';
+import AnimatedSection from './AnimatedSection';
 
 
 
@@ -44,7 +45,10 @@ const Home = () => {
                     }
                 </div>
             </div>
-            <div className='mt-10'>
+            <div>
+                <AnimatedSection />
+            </div>
+            <div>
                 <ParallaxSection />
             </div>
         </div>
