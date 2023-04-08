@@ -4,8 +4,8 @@ import logo from "../../images/logo.png"
 
 const Footer = () => {
     return (
-        <div className='bg-gradient-to-t to-cyan-200 from-cyan-600 p-24'>
-            <footer className="px-6 py-8 bg-slate-600 text-white text-lg font-semibold backdrop-blur-md"
+        <div>
+            <footer className=" bg-gradient-to-t to-cyan-200 from-cyan-600 p-24 text-white text-lg font-semibold"
             >
                 <div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
                     <div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
@@ -17,22 +17,22 @@ const Footer = () => {
                             />
                         </div>
                         <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
-                            <li>
+                            <li className='font1'>
                                 <a rel="noopener noreferrer" href="/">Terms of Use</a>
                             </li>
-                            <li>
+                            <li className='font1'>
                                 <a rel="noopener noreferrer" href="/">Privacy</a>
                             </li>
                         </ul>
                     </div>
                     <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-                        <li>
+                        <li className='font1'>
                             <a rel="noopener noreferrer" href="/">Instagram</a>
                         </li>
-                        <li>
+                        <li className='font1'>
                             <a rel="noopener noreferrer" href="/">Facebook</a>
                         </li>
-                        <li>
+                        <li className='font1'>
                             <a rel="noopener noreferrer" href="/">Twitter</a>
                         </li>
                     </ul>
