@@ -3,10 +3,10 @@ import Header from '../header/Header';
 
 const Contact = () => {
     return (
-        <div className='bg2'>
+        <div className='bg'>
             <Header />
-            <div className=' flex justify-center mt-20 '>
-                <section className="my px-4 py-12 bg-cyan-400  text-gray-50 mx-5  rounded">
+            <div className='flex items-center justify-center'>
+                <section className="sm:translate-y-[47%] translate-y-[15%] bg-cyan-400  text-gray-50 mx-5  rounded py-6">
                     <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                         <div className="py-6 md:py-0 md:px-6">
                             <h1 className="text-4xl font-bold font1">Get in touch</h1>
@@ -50,8 +50,9 @@ const Contact = () => {
                             <label className="block">
                                 <span className="mb-1 font1">Message</span>
                                 <textarea
+                                    placeholder='Your message'
                                     rows="3"
-                                    className="block w-full text-gray-400 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 bg-white placeholder:text-gray-400 font1 placeholder:font1"></textarea>
+                                    className="block w-full text-gray-400 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 bg-white placeholder:text-gray-400 font1 placeholder:font1 placeholder:pl-2 placeholder:pt-2"></textarea>
                             </label>
                             <button className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-cyan-600 text-white focus:ring-violet-400 hover:bg-cyan-800 font1">
                                 Submit

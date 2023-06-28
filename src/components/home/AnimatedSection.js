@@ -4,8 +4,8 @@ import gif2 from '../../images/90770-traveller.gif';
 
 const AnimatedSection = () => {
     return (
-        <div className='bg-white'>
-            <div className='flex flex-col lg:flex-row  gap-10 items-center p-14 mx-10'>
+        <div className='bg-white p-14'>
+            <div className='flex flex-col lg:flex-row  gap-10 items-center py-14'>
                 <img
                     src={gif1}
                     alt=""
@@ -19,7 +19,7 @@ const AnimatedSection = () => {
                     <p className='text-xl mt-4 font1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum maiores voluptatibus nesciunt numquam similique, consequuntur, eos eaque atque aperiam doloremque quia dolores veritatis alias? Ea nostrum ipsum nam, optio excepturi libero voluptatem, voluptas debitis ex quos animi, officia porro neque fugit! Veniam similique possimus aliquam voluptas velit error eaque culpa!</p>
                 </div>
             </div>
-            <div className='flex flex-col lg:flex-row gap-10 items-center p-14 mx-10'>
+            <div className='flex flex-col lg:flex-row gap-10 items-center'>
                 <div>
                     <h1 className='text-4xl font-extrabold font1'>
                         Find easy hotel with

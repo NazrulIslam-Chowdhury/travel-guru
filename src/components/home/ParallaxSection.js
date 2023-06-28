@@ -17,7 +17,7 @@ const ParallaxSection = () => {
                 }}
             >
                 <div style={{
-                    height: '70vh'
+                    height: '100vh'
                 }}
                     className='flex justify-center items-center'
                 >

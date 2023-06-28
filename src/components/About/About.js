@@ -13,7 +13,7 @@ const About = () => {
     return (
         <div>
             <Header />
-            <VerticalTimeline className='mt-20'>
+            <VerticalTimeline className='relative top-10 z-[-1]'>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ color: 'black' }}
