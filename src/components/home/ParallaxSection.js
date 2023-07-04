@@ -52,6 +52,7 @@ const ParallaxSection = () => {
                     style={{
                         height: '100vh',
                     }}
+
                 >
                     <ul className='list-disc bg-gradient-to-b to-cyan-400 from-cyan-300 px-8 py-12 absolute left-24 text-white text-xl font-semibold font1 tracking-wide space-y-5 rounded-br-lg rounded-bl-lg flex justify-start flex-col shadow-lg shadow-black'>
                         <li>Lorem ipsum dolor sit amet.</li>

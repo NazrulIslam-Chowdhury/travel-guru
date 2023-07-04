@@ -5,6 +5,9 @@ import { FaArrowAltCircleRight } from 'react-icons/fa';
 import Header from '../header/Header';
 import ParallaxSection from './ParallaxSection';
 import AnimatedSection from './AnimatedSection';
+import Locations from './Locations';
+
+
 
 
 
@@ -25,7 +28,7 @@ const Home = () => {
                     <h1 className="text-7xl font-extrabold font1 tracking-wider text-center">Travel Guru</h1>
                     <p className="text-2xl font1 mt-2">Your travel companion</p>
                     <button
-                        className='font1 bg-sky-400 px-10 py-2 hover:bg-sky-600 hover:scale-125 transition-transform text-lg font-semibold rounded mt-6'>
+                        className='font1 bg-sky-400 px-10 py-2 hover:bg-sky-600 hover:scale-125 transition-transform duration-500 text-lg font-semibold rounded mt-6'>
                         <Link
                             className='inline-flex items-center gap-1' to='/booking'
                         >
@@ -50,6 +53,9 @@ const Home = () => {
             </div>
             <div>
                 <ParallaxSection />
+            </div>
+            <div>
+                <Locations />
             </div>
         </div>
 
