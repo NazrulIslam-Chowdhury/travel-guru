@@ -6,6 +6,7 @@ import Header from '../header/Header';
 import ParallaxSection from './ParallaxSection';
 import AnimatedSection from './AnimatedSection';
 import Locations from './Locations';
+import VideoSec from './VideoSec';
 
 
 
@@ -56,6 +57,9 @@ const Home = () => {
             </div>
             <div>
                 <Locations />
+            </div>
+            <div>
+                <VideoSec />
             </div>
         </div>
 

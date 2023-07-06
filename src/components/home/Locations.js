@@ -1,6 +1,7 @@
 import React from 'react';
 import countries from '../../constant';
-
+import star from "../../images/icons/star_1_.png"
+    ;
 const Locations = () => {
     return (
         <div className='py-20'>
@@ -40,9 +41,12 @@ const Locations = () => {
                                             <div className='flex absolute z-10 -translate-y-20 px-3'>
                                                 <div className='flex flex-col gap-2'>
                                                     <h1 className='text-white text-xl font-bold'>{location.name}</h1>
-                                                    <p className='text-white text-xl font-bold'>{location.rating}</p>
+                                                    <div className='flex gap-2 items-center'>
+                                                        <img src={star} alt="rating" className='w-5 h-5' />
+                                                        <p className='text-white text-xl font-bold'>{location.rating}</p>
+                                                    </div>
                                                 </div>
-                                                <h1 className='text-white text-xl font-bold translate-x-40'>$   {location.price}</h1>
+                                                <h1 className='text-white text-xl font-bold translate-x-36'>$   {location.price}</h1>
                                             </div>
                                         </div>
                                     ))
