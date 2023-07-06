@@ -11,7 +11,7 @@ const VideoSec = () => {
                 bgImageStyle={{
                     filter: "brightness(65%)",
                 }}
-                className='absolute'
+                className='relative'
             >
 
                 <div style={{

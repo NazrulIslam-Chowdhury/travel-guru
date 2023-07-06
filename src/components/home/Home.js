@@ -7,6 +7,7 @@ import ParallaxSection from './ParallaxSection';
 import AnimatedSection from './AnimatedSection';
 import Locations from './Locations';
 import VideoSec from './VideoSec';
+import Facility from './Facility';
 
 
 
@@ -60,6 +61,9 @@ const Home = () => {
             </div>
             <div>
                 <VideoSec />
+            </div>
+            <div>
+                <Facility />
             </div>
         </div>
 
