@@ -6,7 +6,7 @@ import earth from "../../images/icons/earth.png";
 
 const Facility = () => {
     return (
-        <div className='flex justify-evenly gap-6 p-20'>
+        <div className='flex sm:flex-row flex-col justify-evenly gap-6 p-20'>
             <div className='flex flex-col gap-3 items-center'>
                 <img className='w-20 h-20' src={camera} alt="Restaurants" />
                 <h1 className='text-lg font-extrabold'>Restaurants</h1>

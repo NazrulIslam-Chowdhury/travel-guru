@@ -1,5 +1,5 @@
 import React from 'react';
-import countries from '../../constant';
+import { countries } from "../../constant"
 import star from "../../images/icons/star_1_.png"
     ;
 const Locations = () => {
@@ -13,7 +13,7 @@ const Locations = () => {
             <div className='flex flex-col gap-16 items-center justify-center'>
                 {
                     countries.map((country, idx) => (
-                        <div key={idx} className='relative flex sm:flex-row flex-wrap flex-col gap-6'>
+                        <div key={idx} className='relative flex sm:flex-row flex-wrap flex-col gap-6 items-center'>
                             <div
                                 className='w-[350px] h-[350px] overflow-hidden rounded-full border-solid border-4 border-white'
                             >
@@ -25,7 +25,7 @@ const Locations = () => {
                                 <p className='text-white font-extrabold text-5xl absolute translate-x-32 -translate-y-48 z-10 font'>{country.name}</p>
                             </div>
 
-                            <div className='flex sm:flex-row flex-col flex-wrap gap-6'>
+                            <div className='flex flex-wrap gap-6 justify-center'>
                                 {
                                     country.locations.map((location, idx) => (
                                         <div

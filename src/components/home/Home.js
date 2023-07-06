@@ -8,6 +8,7 @@ import AnimatedSection from './AnimatedSection';
 import Locations from './Locations';
 import VideoSec from './VideoSec';
 import Facility from './Facility';
+import Mediterranean from './Mediterranean';
 
 
 
@@ -64,6 +65,9 @@ const Home = () => {
             </div>
             <div>
                 <Facility />
+            </div>
+            <div>
+                <Mediterranean />
             </div>
         </div>
 

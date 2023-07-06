@@ -13,7 +13,8 @@ import kaohsiung from "../images/places/kaoshiung.jpg";
 import ubud from "../images/places/ubud.jpg";
 import seminyak from "../images/places/seminyak.jpg";
 import denpasar from "../images/places/depasar.jpg";
-
+import varadero from "../images/places/Varadero.jpg";
+import italy from "../images/places/Italy.jpg";
 
 
 
@@ -133,5 +134,26 @@ const countries = [
 ]
 
 
+const offerLocations = [
+    {
+        "name": "Valencia",
+        "price": "1990",
+        "image": valencia,
+        "offer": "50% off"
+    },
+    {
+        "name": "Varadero",
+        "price": "2300",
+        "image": varadero,
+        "offer": "Special offer"
+    },
+    {
+        "name": "Italy Tour",
+        "price": "2560",
+        "image": italy,
+        "offer": "40% off"
+    },
+]
 
-export default countries;
+
+export { countries, offerLocations };
