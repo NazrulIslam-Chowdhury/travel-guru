@@ -9,6 +9,7 @@ import Locations from './Locations';
 import VideoSec from './VideoSec';
 import Facility from './Facility';
 import Mediterranean from './Mediterranean';
+import Review from './Review';
 
 
 
@@ -68,6 +69,9 @@ const Home = () => {
             </div>
             <div>
                 <Mediterranean />
+            </div>
+            <div>
+                <Review />
             </div>
         </div>
 

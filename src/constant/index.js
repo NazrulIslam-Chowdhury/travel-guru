@@ -16,6 +16,15 @@ import denpasar from "../images/places/depasar.jpg";
 import varadero from "../images/places/Varadero.jpg";
 import italy from "../images/places/Italy.jpg";
 
+import men1 from "../images/peoples/man1.jpg";
+import men2 from "../images/peoples/man2.jpg";
+import men3 from "../images/peoples/man3.jpg";
+import men4 from "../images/peoples/man4.jpg";
+import women1 from "../images/peoples/women1.jpg";
+import women2 from "../images/peoples/women2.jpg";
+import women3 from "../images/peoples/women3.jpg";
+import women4 from "../images/peoples/women4.jpg";
+
 
 
 const countries = [
@@ -156,4 +165,55 @@ const offerLocations = [
 ]
 
 
-export { countries, offerLocations };
+const reviews = [
+    {
+        "place": "Taipei",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, aut.",
+        "name": "Roger Banks",
+        "image": men1
+    },
+    {
+        "place": "Sidney",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "name": "Carol Silva",
+        "image": women1
+    },
+    {
+        "place": "Barcelona",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, aut.",
+        "name": "Carl Moore",
+        "image": men2
+    },
+    {
+        "place": "Taipei",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "name": "Ema Cooper",
+        "image": women2
+    },
+    {
+        "place": "Temple Tour",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, aut.",
+        "name": "Sam Smith",
+        "image": men3
+    },
+    {
+        "place": "Madrid",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "name": "Susan Dey",
+        "image": women3
+    },
+    {
+        "place": "Tarrangona",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, aut.",
+        "name": "James Fisher",
+        "image": men4
+    },
+    {
+        "place": "Kaohsiung",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "name": "Mai Ling",
+        "image": women4
+    },
+]
+
+export { countries, offerLocations, reviews };
