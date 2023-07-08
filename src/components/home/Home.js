@@ -11,6 +11,7 @@ import Facility from './Facility';
 import Mediterranean from './Mediterranean';
 import Review from './Review';
 import Blog from './Blog';
+import Country from './Country';
 
 
 
@@ -76,6 +77,9 @@ const Home = () => {
             </div>
             <div>
                 <Blog />
+            </div>
+            <div>
+                <Country />
             </div>
         </div>
 

@@ -37,9 +37,6 @@ const Blog = () => {
                         src={banner} alt="Banner"
                         className='w-[500px] h-[500px] object-cover'
                     />
-                    {/* <div className='bg-red-500 w-[500px] -translate-y-[500px] h-[500px] banner'>
-
-                    </div> */}
                 </div>
             </div>
         </div>

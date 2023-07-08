@@ -4,7 +4,7 @@ import logo from "../../images/logo.png"
 
 const Footer = () => {
     return (
-        <div>
+        <div className='pt-20'>
             <footer className=" bg-gradient-to-t to-cyan-200 from-cyan-600 p-24 text-white text-lg font-semibold"
             >
                 <div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">

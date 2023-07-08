@@ -36,7 +36,7 @@ const Locations = () => {
                                                 src={location.image}
                                                 alt={location.name}
                                                 className='w-full h-full
-                                                rounded transition-transform hover:scale-110 grayscale-[40%] cursor-pointer duration-[2s]'
+                                                rounded transition-transform hover:scale-110 grayscale-[40%] object-cover cursor-pointer duration-[2s]'
                                             />
                                             <div className='flex absolute z-10 -translate-y-20 px-3'>
                                                 <div className='flex flex-col gap-2'>

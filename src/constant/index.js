@@ -15,6 +15,8 @@ import seminyak from "../images/places/seminyak.jpg";
 import denpasar from "../images/places/depasar.jpg";
 import varadero from "../images/places/Varadero.jpg";
 import italy from "../images/places/Italy.jpg";
+import netherlands from "../images/places/Netherlands.jpg";
+import greece from "../images/places/greece.jpg";
 
 import men1 from "../images/peoples/man1.jpg";
 import men2 from "../images/peoples/man2.jpg";
@@ -27,6 +29,8 @@ import women4 from "../images/peoples/women4.jpg";
 
 import blog1 from "../images/blog-img-12.jpg";
 import blog2 from "../images/blog-img-13.jpg";
+
+
 
 const countries = [
     {
@@ -232,4 +236,19 @@ const blogs = [
     },
 ]
 
-export { countries, offerLocations, reviews, blogs };
+const europeCountries = [
+    {
+        "name": "Netherlands",
+        "image": netherlands
+    },
+    {
+        "name": "Greece",
+        "image": greece
+    },
+    {
+        "name": "Italy",
+        "image": italy
+    },
+]
+
+export { countries, offerLocations, reviews, blogs, europeCountries };
