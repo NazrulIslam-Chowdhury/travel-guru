@@ -10,6 +10,7 @@ import VideoSec from './VideoSec';
 import Facility from './Facility';
 import Mediterranean from './Mediterranean';
 import Review from './Review';
+import Blog from './Blog';
 
 
 
@@ -72,6 +73,9 @@ const Home = () => {
             </div>
             <div>
                 <Review />
+            </div>
+            <div>
+                <Blog />
             </div>
         </div>
 

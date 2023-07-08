@@ -25,7 +25,8 @@ import women2 from "../images/peoples/women2.jpg";
 import women3 from "../images/peoples/women3.jpg";
 import women4 from "../images/peoples/women4.jpg";
 
-
+import blog1 from "../images/blog-img-12.jpg";
+import blog2 from "../images/blog-img-13.jpg";
 
 const countries = [
     {
@@ -216,4 +217,19 @@ const reviews = [
     },
 ]
 
-export { countries, offerLocations, reviews };
+const blogs = [
+    {
+        "title": "Amazing Tour",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste beatae adipisci commodi. Quae commodi rerum beatae consequuntur aliquid distinctio.",
+        "date": "1 September 2022",
+        "image": blog1
+    },
+    {
+        "title": "Your Vacation",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste beatae adipisci commodi. Quae commodi rerum beatae consequuntur aliquid distinctio.",
+        "date": "5 October 2022",
+        "image": blog2
+    },
+]
+
+export { countries, offerLocations, reviews, blogs };

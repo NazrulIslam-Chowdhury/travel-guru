@@ -26,7 +26,7 @@ const Review = () => {
                     }}
                 >
 
-                    <div className='flex flex-col justify-center items-center gap-3 mb-20 sm:pt-20 lg:pt-36 md:pt-36'>
+                    <div className='flex flex-col justify-center items-center gap-3 mb-20 sm:pt-36 pt-16'>
                         <h3 className='text-white font text-5xl font-extrabold'>Read the Top</h3>
                         <h1 className='text-white text-6xl font-[1000]'>Travel reviews</h1>
                         <p className='text-white text-center text-lg px-[20%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum</p>
