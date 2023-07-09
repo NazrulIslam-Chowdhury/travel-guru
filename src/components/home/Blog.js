@@ -1,8 +1,14 @@
 import React from 'react';
 import { blogs } from '../../constant';
 import banner from "../../images/h1-banner-img-1.jpg"
+import { useInView } from 'react-intersection-observer';
 
 const Blog = () => {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 1,
+    });
+
     return (
         <div className='flex flex-col sm:flex-row gap-10 sm:p-20 p-10 relative overflow-hidden'>
             <div>
@@ -31,13 +37,14 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div>
-                <div className='relative before:absolute  banner'>
-                    <img
-                        src={banner} alt="Banner"
-                        className='w-[500px] h-[500px] object-cover'
-                    />
-                </div>
+
+            <div
+                ref={ref}
+                className={`relative before:absolute ${inView ? 'banner' : ''} `}>
+                <img
+                    src={banner} alt="Banner"
+                    className={`${inView ? 'w-[500px] h-[500px] object-cover' : 'hidden'}`}
+                />
             </div>
         </div>
     );

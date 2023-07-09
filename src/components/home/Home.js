@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import Place from '../place/Place';
-import { FaArrowAltCircleRight } from 'react-icons/fa';
 import Header from '../header/Header';
 import ParallaxSection from './ParallaxSection';
 import AnimatedSection from './AnimatedSection';
@@ -12,6 +10,10 @@ import Mediterranean from './Mediterranean';
 import Review from './Review';
 import Blog from './Blog';
 import Country from './Country';
+import Hero from './Hero';
+import Input from './Input';
+
+
 
 
 
@@ -28,26 +30,14 @@ const Home = () => {
 
     return (
         <div>
-            <div className='relative bg text-white'>
+            <div className='relative'>
                 <Header />
-                <div className='flex flex-col translate-y-[100%] items-center justify-center'>
-                    <h1 className="text-7xl font-extrabold font1 tracking-wider text-center">Travel Guru</h1>
-                    <p className="text-2xl font1 mt-2">Your travel companion</p>
-                    <button
-                        className='font1 bg-sky-400 px-10 py-2 hover:bg-sky-600 hover:scale-125 transition-transform duration-500 text-lg font-semibold rounded mt-6'>
-                        <Link
-                            className='inline-flex items-center gap-1' to='/booking'
-                        >
-                            Book Now
-                            <FaArrowAltCircleRight
-                                className='mt-1' />
-                        </Link>
-                    </button>
-                </div>
+                <Hero />
+                <Input />
             </div>
             <div className="relative bg3"
             >
-                <h1 className='text-white text-center text-3xl font1 font-bold mt-16'>Places</h1>
+                <h1 className='text-white text-center text-3xl font1 font-bold mt-36'>Places</h1>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-6 mx-10  mt-10 pb-[70%]'>
                     {
                         places.map(place => <Place key={place.id} place={place}></Place>)
@@ -81,7 +71,7 @@ const Home = () => {
             <div>
                 <Country />
             </div>
-        </div>
+        </div >
 
     );
 };
