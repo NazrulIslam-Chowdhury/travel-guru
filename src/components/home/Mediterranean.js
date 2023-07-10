@@ -14,7 +14,7 @@ const Mediterranean = () => {
         >
             <div className='flex flex-col justify-center items-center gap-1 mb-20 pt-52'>
                 <h3 className='text-sky-400 font text-5xl font-extrabold'>The Unforgettable</h3>
-                <h1 className='text-6xl font-[1000]'>Mediterranean</h1>
+                <h1 className='text-6xl font-[1000] text-center'>Mediterranean</h1>
                 <p className='text-center text-lg px-[20%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum</p>
             </div>
 
@@ -28,10 +28,11 @@ const Mediterranean = () => {
                             <img
                                 src={location.image}
                                 alt={location.name}
+                                loading='lazy'
                                 className='w-full h-full object-cover
                                                 rounded transition-transform hover:scale-110 grayscale-[40%] cursor-pointer duration-[2s]'
                             />
-                            <div className=' '>
+                            <div>
                                 <h1 className='text-white text-xl font-bold -translate-y-20 translate-x-36 px-3'>{location.name}</h1>
                                 <h1 className='text-white text-xl font-bold -translate-y-20 translate-x-36 px-3'>$   {location.price}</h1>
                                 <h1 className='bg-sky-500 text-white text-lg px-4 py-2 font-bold font-sans absolute top-0 right-0'>{location.offer}</h1>

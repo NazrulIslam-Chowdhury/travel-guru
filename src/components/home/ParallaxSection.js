@@ -13,7 +13,7 @@ const ParallaxSection = () => {
                 bgImage={img1}
                 strength={600}
                 bgImageStyle={{
-                    filter: "brightness(77%)"
+                    filter: "brightness(80%)"
                 }}
             >
                 <div style={{

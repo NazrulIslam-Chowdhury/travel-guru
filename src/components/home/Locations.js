@@ -7,7 +7,7 @@ const Locations = () => {
         <div className='py-20'>
             <div className='flex flex-col justify-center items-center gap-1 mb-20'>
                 <h3 className='text-sky-400 font text-5xl font-extrabold'>Choose Your</h3>
-                <h1 className='text-6xl font-[1000]'>Perfect Holiday</h1>
+                <h1 className='text-6xl font-[1000] text-center'>Perfect Holiday</h1>
                 <p className='text-center text-lg px-[20%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor id veniam odio tempore quidem iusto eveniet quae cupiditate veritatis eligendi?</p>
             </div>
             <div className='flex flex-col gap-16 items-center justify-center'>
@@ -35,6 +35,7 @@ const Locations = () => {
                                             <img
                                                 src={location.image}
                                                 alt={location.name}
+                                                loading='lazy'
                                                 className='w-full h-full
                                                 rounded transition-transform hover:scale-110 grayscale-[40%] object-cover cursor-pointer duration-[2s]'
                                             />

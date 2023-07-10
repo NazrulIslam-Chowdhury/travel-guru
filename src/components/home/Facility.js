@@ -21,7 +21,7 @@ const Facility = () => {
 
             <div className='flex flex-col gap-3 items-center'>
                 <img className='w-20 h-20' src={shop} alt="Shops and Boutiques" />
-                <h1 className='text-lg font-extrabold'>Shops and boutiques</h1>
+                <h1 className='text-lg text-center font-extrabold'>Shops and boutiques</h1>
                 <p className='text-sm text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptate.</p>
             </div>
 

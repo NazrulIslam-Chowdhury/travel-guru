@@ -10,7 +10,7 @@ const Blog = () => {
     });
 
     return (
-        <div className='flex flex-col sm:flex-row gap-10 sm:p-20 p-10 relative overflow-hidden'>
+        <div className='flex flex-col sm:flex-row gap-10 sm:p-20 py-10 px-3 relative overflow-hidden'>
             <div>
                 <div>
                     <h1 className='text-6xl font-[1000]'>From Our Blog</h1>
@@ -18,12 +18,13 @@ const Blog = () => {
                 </div>
                 <div className='flex flex-col gap-5 mt-10'>
                     {
-                        blogs.map((blog) => (
-                            <div className='flex gap-5 '>
-                                <div className='w-[200px] h-[150px] overflow-hidden border-2 border-solid border-white'>
+                        blogs.map((blog, idx) => (
+                            <div className='flex gap-5' key={idx}>
+                                <div className='sm:w-[200px] w-[400px] h-[150px] overflow-hidden border-2 border-solid border-white'>
                                     <img
                                         src={blog.image}
                                         alt={blog.title}
+                                        loading='lazy'
                                         className='w-full h-full transition-transform hover:scale-110 cursor-pointer duration-[2s] object-cover' />
                                 </div>
                                 <div className='flex flex-col gap-3'>
@@ -43,6 +44,7 @@ const Blog = () => {
                 className={`relative before:absolute ${inView ? 'banner' : ''} `}>
                 <img
                     src={banner} alt="Banner"
+                    loading='lazy'
                     className={`${inView ? 'w-[500px] h-[500px] object-cover' : 'hidden'}`}
                 />
             </div>

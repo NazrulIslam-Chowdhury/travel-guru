@@ -13,11 +13,14 @@ const Hero = () => {
     return (
         <div className='w-[100%] h-[700px] overflow-hidden relative'>
             <div className='image-slider relative' />
-            <div ref={ref} className='flex flex-col sm:-translate-y-[220%] -translate-y-[170%] items-center justify-center'>
-                <h1 className={`text-5xl text-white font-extrabold font1 tracking-wider text-center font ${inView ? 'text1' : "hidden"}`}>Come With Us</h1>
-                <p className={`text-8xl text-white mt-2 font-[1000] ${inView ? 'text2' : "hidden"} text-center`}>Explore and Travel</p>
+            <div ref={ref} className='flex flex-col lg:-translate-y-[215%] md:-translate-y-[160%] sm:-translate-y-[170%] 
+            -translate-y-[200%]
+            items-center justify-center'>
+                <h1 className={`sm:text-5xl text-3xl text-white font-extrabold font1 tracking-wider text-center font ${inView ? 'text1' : "hidden"}`}>Come With Us</h1>
+                <p className={`sm:text-8xl text-6xl text-white mt-2 font-[1000] ${inView ? 'text2' : "hidden"} text-center`}>Explore and Travel</p>
                 <button
-                    className={`bg-white px-10 py-2 text-gray-500 hover:scale-125 transition-transform duration-500 text-lg font-semibold rounded mt-6 ${inView ?
+
+                    className={`bg-white px-10 py-2 text-gray-500 hover:bg-gray-400 transition-all duration-500 hover:text-white text-lg font-semibold rounded mt-6 ${inView ?
                         "button" : "hidden"} border-none`}>
                     <Link
                         className='inline-flex items-center gap-1' to='/booking'

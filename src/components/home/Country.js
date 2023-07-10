@@ -28,6 +28,7 @@ const Country = () => {
                             <img
                                 src={location.image}
                                 alt={location.name}
+                                loading='lazy'
                                 className='w-full h-full object-cover rounded-full
                                          transition-transform hover:scale-110 brightness-75 grayscale-[40%] cursor-pointer duration-[2s]'
                             />

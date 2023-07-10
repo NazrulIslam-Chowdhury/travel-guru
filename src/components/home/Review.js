@@ -16,7 +16,7 @@ const Review = () => {
                 bgImage={bg}
                 strength={600}
                 bgImageStyle={{
-                    filter: "brightness(70%)"
+                    filter: "brightness(80%)"
                 }}
                 bgImageSizes='cover'
             >
@@ -28,7 +28,7 @@ const Review = () => {
 
                     <div className='flex flex-col justify-center items-center gap-3 mb-20 sm:pt-36 pt-16'>
                         <h3 className='text-white font text-5xl font-extrabold'>Read the Top</h3>
-                        <h1 className='text-white text-6xl font-[1000]'>Travel reviews</h1>
+                        <h1 className='text-white text-6xl font-[1000] text-center'>Travel reviews</h1>
                         <p className='text-white text-center text-lg px-[20%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nostrum</p>
                     </div>
                     <Swiper
@@ -56,7 +56,11 @@ const Review = () => {
                             reviews.map((review, idx) => (
                                 <SwiperSlide key={idx} className='cursor-grabbing'>
                                     <div className='flex gap-4 items-center bg-white p-10 rounded'>
-                                        <img src={review.image} alt={review.name} className='w-36 h-36 object-cover rounded-full' />
+                                        <img
+                                            src={review.image}
+                                            alt={review.name}
+                                            loading='lazy'
+                                            className='w-36 h-36 object-cover rounded-full' />
                                         <div className='flex flex-col gap-2'>
                                             <h1 className='font-black text-2xl'>{review.place}</h1>
                                             <div className='flex flex-row gap-1 items-center'>
