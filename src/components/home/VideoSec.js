@@ -22,7 +22,7 @@ const VideoSec = () => {
                         <h1 className='text-slate-200 text-6xl font-[1000] text-center'>Breathtaking Cities</h1>
                         <p className='text-slate-200 text-center text-lg px-[20%]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sequi, quos atque iusto soluta praesentium. Molestias eum illum tempora dignissimos.</p>
                     </div>
-                    <iframe width="1000" height="520" src="https://www.youtube.com/embed/shzC2DUO9Hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                    <iframe width="1000" height="520" src="https://www.youtube.com/embed/shzC2DUO9Hg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                         className='absolute -bottom-12'
                     ></iframe>
                 </div>
