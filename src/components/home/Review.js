@@ -15,10 +15,7 @@ const Review = () => {
             <Parallax
                 bgImage={bg}
                 strength={600}
-                bgImageStyle={{
-                    filter: "brightness(80%)"
-                }}
-                bgImageSizes='cover'
+                className=''
             >
                 <div
                     style={{
